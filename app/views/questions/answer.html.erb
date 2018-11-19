@@ -1,16 +1,19 @@
-<h1>Questions#answer</h1>
 
 
-<p> -you <br>
- <%= @ask %>
-</p>
+<div class="ma-reponse">
+  <p> -you <br>
+   <%= @ask %>
+  </p>
+</div>
 
 
-
-
+<div class="reponse-du-coach">
 <p>  - the coach : <br>
  <%= @answer %>
 </p>
+</div>
 
 
+<div class="retour-question">
 <%= link_to 'ask another question', :ask   %>
+</div>
